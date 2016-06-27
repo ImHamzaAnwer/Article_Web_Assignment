@@ -1,0 +1,65 @@
+.body{
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .clear{
+        clear: both;
+    }
+    
+    .container{
+        width:1250px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding: 5px;
+        font-size: .8em;
+        line-height: 1.3em;
+    }
+    
+    aside{
+        float: left;
+        width: 250px;
+    }
+    
+    main{
+        float: right;
+        width: 950px;
+        box-sizing: border-box;
+    }
+    
+    .col-1{
+        width: 530px;
+        float: left;
+    }
+    
+    .col2{
+        width: 380px;
+        float: right;
+        
+    }
+    
+    h1{
+        text-align: center;
+        padding: 3px 0;
+    }
+    
+    .article-cat{
+        background-color: yellowgreen;
+        border: 3px solid forestgreen;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    
+    .article-cat ul{
+        list-style: none;
+    }
+    
+    .article-cat li{
+        padding: 5px 0;
+    }
+    
+    .article-cat li a{
+        text-decoration: none;
+        color: #fff;
+    }
