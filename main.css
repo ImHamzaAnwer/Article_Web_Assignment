@@ -159,6 +159,11 @@ body{
         border-radius: 5px;
     }
     
+    .lang th a{
+        text-decoration:none;
+        color: green; 
+    }
+    
     .mosque{
         width: 280px;
         height: 180px;
@@ -197,6 +202,7 @@ body{
         width: 170px;
         font-size: 12px;
         margin: 15px;
+        cursor: pointer;
     }
     
     .chat-btn:hover{
